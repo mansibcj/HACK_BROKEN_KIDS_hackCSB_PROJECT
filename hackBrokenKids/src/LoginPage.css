@@ -1,0 +1,96 @@
+/* Common styles for both login and signup forms */
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: white;
+}
+
+.login-form {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.logo-container {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.logo {
+  max-width: 150px;
+  height: auto;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.input-label {
+  flex: 0 0 100px; /* Adjust this value to control the label width */
+  color: #333;
+  margin-right: 1rem; /* Space between label and input */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  flex: 1; /* Input takes the remaining space */
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.remember-forgot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+.login-button {
+  width: 100%;
+  padding: 10px;
+  background-color: transparent;
+  color: #333;
+  border: 2px solid #333;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: #333;
+  color: white;
+}
+
+.register-link {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
